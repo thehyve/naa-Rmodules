@@ -35,10 +35,10 @@ class DataAssociationController {
 		def module = pluginService.findPluginModuleByModuleName(params.analysis)
 		render(view:"../plugin/"+module.formPage)
 	}
-	
+
 	def loadScripts = {
-		def scripts = [servletContext.contextPath+pluginContextPath+'/js/dataAssociation.js', 
-		servletContext.contextPath+pluginContextPath+'/js/PDFGenerator.js',
+		def scripts = [servletContext.contextPath+pluginContextPath+'/js/RModules.js',
+        servletContext.contextPath+pluginContextPath+'/js/PDFGenerator.js',
 		servletContext.contextPath+pluginContextPath+'/js/plugin/SurvivalAnalysis.js',
 		servletContext.contextPath+pluginContextPath+'/js/plugin/CorrelationAnalysis.js',
 		servletContext.contextPath+pluginContextPath+'/js/plugin/LineGraph.js',
@@ -53,8 +53,6 @@ class DataAssociationController {
 		servletContext.contextPath+pluginContextPath+'/js/plugin/IC50.js',
 		servletContext.contextPath+pluginContextPath+'/js/plugin/PCA.js',
 		servletContext.contextPath+pluginContextPath+'/js/plugin/MarkerSelection.js']
-		
-
 		
 		JSONObject result = new JSONObject()
 		JSONArray rows = new JSONArray()
