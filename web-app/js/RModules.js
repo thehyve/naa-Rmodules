@@ -71,6 +71,16 @@ function createAdvancedWorkflowMenuItems(modules) {
 function onItemClick(item) {
     if(!checkPreviousAnalysis()) return false;
 
+    new Ajax.Updater('dataAssociationBody', pageInfo.basePath + '/dataAssociation/defaultPage',
+        {
+           asynchronous: true,
+           evalScripts: true,
+           onComplete: function (e) {
+               renderCohortSummary();
+           }
+        }
+    );
+
     new Ajax.Updater('variableSelection', pageInfo.basePath+'/dataAssociation/variableSelection',
         {
             asynchronous:true,evalScripts:true,
