@@ -61,7 +61,6 @@ function createAdvancedWorkflowMenuItems(modules) {
     Ext.each(modules, function(module, index) {
         var menuItem = module;
         menuItem.handler = onItemClick;
-
         menuItems.push(menuItem);
     });
 
@@ -77,19 +76,21 @@ function onItemClick(item) {
            evalScripts: true,
            onComplete: function (e) {
                renderCohortSummary();
+               Ext.fly('selectedAnalysis').update(item.text, false);
+               Ext.get('analysis').dom.value = item.id;
+
+               new Ajax.Updater('variableSelection', pageInfo.basePath+'/dataAssociation/variableSelection',
+               {
+                   asynchronous:true,evalScripts:true,
+                   onComplete: function(e) {
+                       loadPluginView(item.id);
+                   },
+                   parameters:{analysis:item.id}
+               });
            }
         }
     );
 
-    new Ajax.Updater('variableSelection', pageInfo.basePath+'/dataAssociation/variableSelection',
-        {
-            asynchronous:true,evalScripts:true,
-            onComplete: function(e) {
-                loadPluginView(item.id);
-            },parameters:{analysis:item.id}
-        });
-    Ext.fly('selectedAnalysis').update(item.text, false);
-    Ext.get('analysis').dom.value = item.id;
     item.parentMenu.hide(true);
 }
 
@@ -110,8 +111,7 @@ function loadPluginView(){
 
 }
 
-function submitJob(formParams)
-{
+function submitJob(formParams) {
     //Make sure at least one subset is filled in.
     if(isSubsetEmpty(1) && isSubsetEmpty(2))
     {
@@ -164,8 +164,7 @@ function runJob(result, formParams) {
     checkPluginJobStatus(jobName)
 }
 
-function loadCommonHighDimFormObjects(formParams, divName)
-{
+function loadCommonHighDimFormObjects(formParams, divName) {
 
     formParams[divName + "timepoints"]			= window[divName + 'timepoints1'];
     formParams[divName + "samples"]				= window[divName + 'samples1'];
@@ -279,15 +278,13 @@ function loadCommonHighDimFormObjects(formParams, divName)
 
 }
 
-function loadCommonHeatmapImageAttributes(formParams)
-{
+function loadCommonHeatmapImageAttributes(formParams) {
     formParams["txtImageWidth"]		=	document.getElementById("txtImageWidth").value,
         formParams["txtImageHeight"]	=	document.getElementById("txtImageHeight").value,
         formParams["txtTextSize"]		=	document.getElementById("txtImagePointsize").value
 }
 
-function validateCommonHeatmapImageAttributes(formParams)
-{
+function validateCommonHeatmapImageAttributes(formParams) {
     if(document.getElementById("txtImageWidth").value == '')
     {
         Ext.Msg.alert('Wrong input', 'Please enter the image width in the "Image Width" text box.');
