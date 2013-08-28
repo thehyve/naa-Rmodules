@@ -1,0 +1,8 @@
+.cohortwarning{
+    color:red;
+    font-weight:bold;
+}
+
+.dassociationbutton{
+    background-image:url(../images/compare.png ) !important;
+}

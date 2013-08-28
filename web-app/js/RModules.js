@@ -49,7 +49,7 @@ function createAdvancedWorkflowMenu(result) {
         Ext.getCmp('advancedWorkflowToolbar')
             .add({
                 text : 'Analysis',
-                iconCls : 'comparebutton',
+                iconCls : 'dassociationbutton',
                 disabled : false,
                 menu : advMenu
             });

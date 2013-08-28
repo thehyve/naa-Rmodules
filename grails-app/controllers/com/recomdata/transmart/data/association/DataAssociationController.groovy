@@ -63,11 +63,22 @@ class DataAssociationController {
 			m["type"] = "script"
 			rows.put(m);
 		}
-		
-		result.put("success", true)
-		result.put("totalCount", scripts.size())		
 		result.put("files", rows)
-		
+
+        rows = new JSONArray()
+        def css = [servletContext.contextPath+pluginContextPath + '/css/dataAssociation.css']
+        css.each { file ->
+            def m = [:]
+            m["path"] = file.toString()
+            m["type"] = "text/css"
+            rows.put(m)
+        }
+        result.put("resources", rows)
+
+		result.put("success", true)
+		result.put("totalCount", scripts.size())
+        result.put("totalResources", css.size())
+
 		response.setContentType("text/json")
 		response.outputStream << result.toString()
 	}
