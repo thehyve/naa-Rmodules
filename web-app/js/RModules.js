@@ -341,3 +341,180 @@ function validateCommonHeatmapImageAttributes(formParams) {
 
     return true;
 }
+
+//This might be inefficient.
+//Return new array with duplicate values removed
+Array.prototype.unique =
+    function() {
+        var a = [];
+        var l = this.length;
+        for(var i=0; i<l; i++) {
+            for(var j=i+1; j<l; j++) {
+                // If this[i] is found later in the array
+                if (this[i] === this[j])
+                    j = ++i;
+            }
+            a.push(this[i]);
+        }
+        return a;
+    };
+
+//This function will create an array of all the node types from a box that i2b2 nodes were dragged into.
+function createNodeTypeArrayFromDiv(divElement,attributeToPull)
+{
+    var nodeTypeList = [];
+
+    //If the category variable element has children, we need to parse them and add their values to an array.
+    if(divElement.dom.childNodes[0])
+    {
+        //Loop through the category variables and add them to a comma seperated list.
+        for(nodeIndex = 0; nodeIndex < divElement.dom.childNodes.length; nodeIndex++)
+        {
+            var currentNode = divElement.dom.childNodes[nodeIndex]
+            var currentNodeType = currentNode.attributes.getNamedItem(attributeToPull).value
+
+            //If we find an item, add it to the array.
+            if(currentNodeType) nodeTypeList.push(currentNodeType.toString());
+        }
+    }
+
+    //Make the elements in the array unique.
+    return nodeTypeList.unique();
+}
+
+function checkPluginJobStatus(jobName) {
+    var secCount = 0;
+    var pollInterval = 1000;   // 1 second
+
+    var updateJobStatus = function(){
+        secCount++;
+        Ext.Ajax.request(
+            {
+                url : pageInfo.basePath+"/asyncJob/checkJobStatus",
+                method : 'POST',
+                success : function(result, request)
+                {
+                    var jobStatusInfo = Ext.util.JSON.decode(result.responseText);
+                    var status = jobStatusInfo.jobStatus;
+                    var errorType = jobStatusInfo.errorType;
+                    var viewerURL = jobStatusInfo.jobViewerURL;
+                    var altViewerURL = jobStatusInfo.jobAltViewerURL;
+                    var exception = jobStatusInfo.jobException;
+                    var resultType = jobStatusInfo.resultType;
+                    var jobResults = jobStatusInfo.jobResults;
+
+                    if(status =='Completed') {
+                        //Ext.getCmp('dataAssociationPanel').body.unmask();
+                        Ext.TaskMgr.stop(checkTask);
+
+                        var fullViewerURL = pageInfo.basePath + viewerURL;
+
+                        //Set the results DIV to use the URL from the job.
+                        Ext.get('analysisOutput').load({url : fullViewerURL,callback: loadModuleOutput});
+
+                        //Set the flag that says we run an analysis so we can warn the user if they navigate away.
+                        GLOBAL.AnalysisRun = true;
+
+                    } else if(status == 'Cancelled' || status == 'Error') {
+                        Ext.TaskMgr.stop(checkTask);
+                    }
+                    updateWorkflowStatus(jobStatusInfo);
+                },
+                failure : function(result, request)
+                {
+                    Ext.TaskMgr.stop(checkTask);
+                    showWorkflowStatusErrorDialog('Failed', 'Could not complete the job, please contact an administrator');
+                },
+                timeout : '300000',
+                params: {jobName: jobName}
+            }
+        );
+    }
+
+    var checkTask =	{
+        run: updateJobStatus,
+        interval: pollInterval
+    }
+    Ext.TaskMgr.start(checkTask);
+}
+
+function loadModuleOutput() {
+    var selectedAnalysis = document.getElementById("analysis").value;
+    selectedAnalysis = selectedAnalysis.charAt(0).toUpperCase()+selectedAnalysis.substring(1);
+
+    var funcName = "load"+selectedAnalysis+"Output";
+
+    if (typeof funcName == 'string' && eval('typeof ' + funcName) == 'function')
+    {
+        eval(funcName+'()');
+    }
+}
+
+function setupCategoricalItemsList(strDivSource,strDivTarget) {
+    // copy from the category div at top of page first and add drag handlers
+    var categoricalSourceDiv = Ext.get(strDivSource);
+    var categoricalTargetDiv = Ext.get(strDivTarget);
+
+    // clear it out first
+    while (categoricalTargetDiv.dom.hasChildNodes())
+        categoricalTargetDiv.dom
+            .removeChild(categoricalTargetDiv.dom.firstChild);
+    for ( var i = 0, n = categoricalSourceDiv.dom.childNodes.length; i < n; ++i) {
+        // clone and append
+        var newnode = categoricalSourceDiv.dom.childNodes[i].cloneNode(true);
+        categoricalTargetDiv.dom.appendChild(newnode);
+        // add drag handler
+        Ext.dd.Registry.register(newnode, {
+            el : newnode
+        });
+    }
+    var dragZone = new Ext.dd.DragZone(categoricalTargetDiv.dom.parentNode, {
+        ddGroup : 'makeBin',
+        isTarget: true,
+        ignoreSelf: false
+    });
+
+    var dropZone = new Ext.dd.DropTarget(categoricalTargetDiv, {
+        ddGroup : 'makeBin',
+        isTarget: true,
+        ignoreSelf: false,
+        onNodeEnter: function(target, dd, e, dragData) {
+            delete this.dropOK;
+            this.dropOK=true;
+            return true;
+
+        },
+        onNodeOver: function(target, dd, e, dragData) {
+            var ret= this.dropOK ? this.dropAllowed : this.dropNotAllowed;
+            console.log(ret);
+            return ret;
+        }
+    });
+    dropZone.notifyDrop = dropOntoBin;
+}
+
+function setupSubsetIds(formParams){
+    runAllQueries(function(){
+        submitJob(formParams);
+    });
+}
+
+function readConceptVariables(divIds){
+    var variableConceptCode = ""
+    var variableEle = Ext.get(divIds);
+
+    //If the variable element has children, we need to parse them and concatenate their values.
+    if(variableEle && variableEle.dom.childNodes[0])
+    {
+        //Loop through the variables and add them to a comma seperated list.
+        for(nodeIndex = 0; nodeIndex < variableEle.dom.childNodes.length; nodeIndex++)
+        {
+            //If we already have a value, add the seperator.
+            if(variableConceptCode != '') variableConceptCode += '|'
+
+            //Add the concept path to the string.
+            variableConceptCode += getQuerySummaryItem(variableEle.dom.childNodes[nodeIndex]).trim()
+        }
+    }
+    return variableConceptCode;
+}
