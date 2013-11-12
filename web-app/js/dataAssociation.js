@@ -84,7 +84,9 @@ function onItemClick(item) {
 	});
 	Ext.fly('selectedAnalysis').update(item.text, false);
 	Ext.get('analysis').dom.value = item.id;
-	item.parentMenu.hide(true);
+	if( item.parentMenu){
+		item.parentMenu.hide(true);
+	}
 	/*var mgr = Ext.Updater('variableSelection')
 	
 	mgr.update({
@@ -446,7 +448,7 @@ function runJob(result, formParams) {
 	formParams.result_instance_id2=GLOBAL.CurrentSubsetIDs[2];
 	formParams.analysis=document.getElementById("analysis").value;
 	formParams.jobName=jobName;
-	
+	GLOBAL.currentAnalysisParams=formParams;
 	Ext.Ajax.request(
 		{						
 			url: pageInfo.basePath+"/RModules/scheduleJob",
@@ -526,6 +528,10 @@ function checkPluginJobStatus(jobName)
 
 function loadModuleOutput()
 {
+	//enable save button
+	button= document.getElementById("analysisSaveButton");
+	document.getElementById("analysisSaveButton").disabled = false; 
+	
 	var selectedAnalysis = document.getElementById("analysis").value;
 	selectedAnalysis = selectedAnalysis.charAt(0).toUpperCase()+selectedAnalysis.substring(1);
 	
