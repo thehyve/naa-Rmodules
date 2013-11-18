@@ -592,7 +592,7 @@ function clearDataAssociation()
 	document.getElementById("analysisOutput").innerHTML = "";
 	//Remove the variable selection screen.
 	document.getElementById("variableSelection").innerHTML = "";
-	
+	document.getElementById("analysisSaveButton").disabled = true; 
 	//Whenever we switch views, make the binning toggle false. All the analysis pages default to this state.
 	GLOBAL.Binning = false
 	GLOBAL.ManualBinning = false

@@ -63,3 +63,34 @@ function registerCorrelationAnalysisDragAndDrop()
 	dtgD = new Ext.dd.DropTarget(variablesDiv,{ddGroup : 'makeQuery'});
 	dtgD.notifyDrop =  dropNumericOntoCategorySelection;
 }
+
+//overloaded method to populate from saved analysis
+function populateCorrelationAnalysis(){
+	var returnedData = GLOBAL.returnedAnalysisData[1];
+	if(returnedData){
+		for (var i = 0; i < returnedData.length; i++) {
+			var obj = returnedData[i]
+			var res = obj.split("=");
+			if(res.length == 2){
+			var concept_key = res[0];
+			var concept_value = res[1];
+				   
+			   switch (concept_key)
+			   {
+			      case "variablesConceptPaths":
+			    	  populatePanel("divVariables",concept_value);
+			    	  break;
+			      case "correlationBy":
+			    	  populateElement("correlationBy",concept_value);
+			    	  break;
+			      case "correlationType":
+			    	  populateElement("correlationType",concept_value);
+			    	  break;
+			      default: 
+			          //alert(concept_key +"="+concept_value);
+			          break;
+			   }//switch
+			}//if
+		}//for
+	}//if
+}
