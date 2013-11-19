@@ -122,5 +122,42 @@ function registerHeatmapDragAndDrop()
 	dtgI.notifyDrop =  dropOntoCategorySelection;
 	
 }
+//overloaded method to populate the BoxPlot from saved analysis
+function populateHeatmap(){
+	var returnedData = GLOBAL.returnedAnalysisData[1];
+	var binningEnabled = false;
+	if(returnedData){
+		for (var i = 0; i < returnedData.length; i++) {
+			var obj = returnedData[i]
+			var res = obj.split("=");
+			if(res.length == 2){
+			var concept_key = res[0];
+			var concept_value = res[1];
+				   
+			   switch (concept_key)
+			   {
+			      case "variablesConceptPaths":
+			    	  populatePanel("divIndependentVariable",concept_value,"hleaficon");
+			    	  break;
+			      case "independentVariable":
+			    	  populatePanel("divIndependentVariable",concept_value,"hleaficon");
+			    	  break;
+			      case "binning":
+			    	  if(concept_value === "TRUE"){
+			    		  binningEnabled = true;
+			    	  }  
+			      default: 
+			          //alert(concept_key +"="+concept_value);
+			          break;
+			   }//switch
+			}//if
+		}//for
+		if(binningEnabled){
+			populateBinning(returnedData);
+		}
+	}//if
+}
 
-
+function isNumber(n) {
+	  return !isNaN(parseInt(n)) && isFinite(n);
+	}
