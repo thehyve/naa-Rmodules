@@ -168,8 +168,7 @@ function populateMarkerSelection(){
 			    	  break;
 			      case "independentVariable":
 			    	  populatePanel("divIndependentVariable",concept_value,"hleaficon");
-			    	  break;
-			    	  }  
+			    	  break; 
 			      default: 
 			          //alert(concept_key +"="+concept_value);
 			          break;
