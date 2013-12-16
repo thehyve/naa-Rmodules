@@ -74,3 +74,33 @@ function registerLineGraphDragAndDrop()
 	dtgG = new Ext.dd.DropTarget(groupByDiv, {ddGroup: 'makeQuery'});
 	dtgG.notifyDrop = dropOntoCategorySelection;
 }
+
+//overloaded method to populate from saved analysis
+function populateLineGraph(){
+    var returnedData = GLOBAL.returnedAnalysisData[1];
+    if(returnedData){
+        for (var i = 0; i < returnedData.length; i++) {
+            var obj = returnedData[i]
+            var res = obj.split("=");
+            if(res.length == 2){
+                var concept_key = res[0];
+                var concept_value = res[1];
+
+                switch (concept_key)
+                {
+                    case "dependentVariable":
+                        populatePanel("divDependentVariable",concept_value);
+                        break;
+                    case "independentVariable":
+                        populatePanel("divIndependentVariable",concept_value);
+                        break;
+                    case "groupByVariable":
+                        populatePanel("divGroupByVariable",concept_value);
+                        break;
+                    default:
+                        break;
+                }//switch
+            }//if
+        }//for
+    }//if
+}

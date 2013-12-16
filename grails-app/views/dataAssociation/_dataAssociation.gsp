@@ -34,7 +34,7 @@
 					<span class='AnalysisHeader'>Cohorts</span>
 				</td>
 				<td align="right">
-					<input type="button" value="Save To PDF" onclick="javascript: generatePdfFromHTML('dataAssociationBody', 'DataAssociation.pdf');">
+					<input type="button" value="Save To PDF" onclick="javascript: generatePdfFromHTML('dataAssociationBody', 'DataAssociation.pdf');"></input>
 				</td>
 			</tr>
 			<tr>
@@ -68,6 +68,13 @@
 	<div style="page-break-after:always"></div>
 	<div id="analysisOutput" style="margin:10px;"></div>
    </div>
+    <div id="saveAnalysisDialog" style="display:none;font: 11px arial,tahoma,helvetica,sans-serif;font-weight:normal;">
+        <br />
+        Analysis Name : <input id='txtAnalysisName' type='text' title="Analysis Name" /> <br />
+        Make Analysis Public : <input id='chkAnalysisPublic' type='checkbox' value='Y' title="Make Analysis Public" /><br /><br />
+
+        <input type="button" onclick="saveAnalysis(true,jQuery('#txtAnalysisName').val(),jQuery('#txtReportDescription').val(),jQuery('#chkAnalysisPublic').is(':checked'),GLOBAL.currentAnalysisParams,GLOBAL.currentSubsetsStudy)" value="Create Report" />
+    </div>
   </body>
   
 </html>
