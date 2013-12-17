@@ -94,6 +94,12 @@ function onItemClick(item) {
     item.parentMenu.hide(true);
 }
 
+function waitWindowForAnalysis()
+{
+    //Mask the panel while the analysis runs.
+    Ext.getCmp('dataAssociationPanel').body.mask("Running analysis...", 'x-mask-loading');
+}
+
 function loadPluginView(){
 
     //Remove the output screen.
@@ -280,8 +286,8 @@ function loadCommonHighDimFormObjects(formParams, divName) {
 
 function loadCommonHeatmapImageAttributes(formParams) {
     formParams["txtImageWidth"]		=	document.getElementById("txtImageWidth").value,
-        formParams["txtImageHeight"]	=	document.getElementById("txtImageHeight").value,
-        formParams["txtTextSize"]		=	document.getElementById("txtImagePointsize").value
+    formParams["txtImageHeight"]	=	document.getElementById("txtImageHeight").value,
+    formParams["txtTextSize"]		=	document.getElementById("txtImagePointsize").value
 }
 
 function validateCommonHeatmapImageAttributes(formParams) {
