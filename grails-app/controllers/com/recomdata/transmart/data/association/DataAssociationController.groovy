@@ -35,10 +35,10 @@ class DataAssociationController {
 		def module = pluginService.findPluginModuleByModuleName(params.analysis)
 		render(view:"../plugin/"+module.formPage)
 	}
-	
+
 	def loadScripts = {
-		def scripts = [servletContext.contextPath+pluginContextPath+'/js/dataAssociation.js', 
-		servletContext.contextPath+pluginContextPath+'/js/PDFGenerator.js',
+		def scripts = [servletContext.contextPath+pluginContextPath+'/js/RModules.js',
+        servletContext.contextPath+pluginContextPath+'/js/PDFGenerator.js',
 		servletContext.contextPath+pluginContextPath+'/js/plugin/SurvivalAnalysis.js',
 		servletContext.contextPath+pluginContextPath+'/js/plugin/CorrelationAnalysis.js',
 		servletContext.contextPath+pluginContextPath+'/js/plugin/LineGraph.js',
@@ -54,8 +54,6 @@ class DataAssociationController {
 		servletContext.contextPath+pluginContextPath+'/js/plugin/PCA.js',
 		servletContext.contextPath+pluginContextPath+'/js/plugin/MarkerSelection.js']
 		
-
-		
 		JSONObject result = new JSONObject()
 		JSONArray rows = new JSONArray()
 		
@@ -65,11 +63,22 @@ class DataAssociationController {
 			m["type"] = "script"
 			rows.put(m);
 		}
-		
-		result.put("success", true)
-		result.put("totalCount", scripts.size())		
 		result.put("files", rows)
-		
+
+        rows = new JSONArray()
+        def css = [servletContext.contextPath+pluginContextPath + '/css/dataAssociation.css']
+        css.each { file ->
+            def m = [:]
+            m["path"] = file.toString()
+            m["type"] = "text/css"
+            rows.put(m)
+        }
+        result.put("resources", rows)
+
+		result.put("success", true)
+		result.put("totalCount", scripts.size())
+        result.put("totalResources", css.size())
+
 		response.setContentType("text/json")
 		response.outputStream << result.toString()
 	}
