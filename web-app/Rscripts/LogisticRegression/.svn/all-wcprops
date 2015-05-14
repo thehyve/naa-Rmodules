@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/web-app/Rscripts/LogisticRegression
+END
+LogisticRegressionLoader.R
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/web-app/Rscripts/LogisticRegression/LogisticRegressionLoader.R
+END
+BuildLogisticRegressionData.R
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/web-app/Rscripts/LogisticRegression/BuildLogisticRegressionData.R
+END

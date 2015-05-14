@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/repos/pfizer_2_0/!svn/ver/1/Rmodules
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/LICENSE
+END
+application.properties
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/application.properties
+END
+.travis.yml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/.travis.yml
+END
+.gitignore
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/.gitignore
+END
+README.md
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/README.md
+END
+RdcRmodulesGrailsPlugin.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/RdcRmodulesGrailsPlugin.groovy
+END
+.gitattributes
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/.gitattributes
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/.project
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/.classpath
+END

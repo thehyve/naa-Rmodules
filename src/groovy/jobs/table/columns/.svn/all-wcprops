@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/src/groovy/jobs/table/columns
+END
+MultiNumericClinicalVariableColumn.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/src/groovy/jobs/table/columns/MultiNumericClinicalVariableColumn.groovy
+END
+TransformColumnDecorator.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/src/groovy/jobs/table/columns/TransformColumnDecorator.groovy
+END
+AbstractColumn.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/src/groovy/jobs/table/columns/AbstractColumn.groovy
+END
+SimpleConceptVariableColumn.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/src/groovy/jobs/table/columns/SimpleConceptVariableColumn.groovy
+END
+ColumnDecorator.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/src/groovy/jobs/table/columns/ColumnDecorator.groovy
+END
+HighDimensionalDataRowMapAdapter.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/src/groovy/jobs/table/columns/HighDimensionalDataRowMapAdapter.groovy
+END
+ConstantValueColumn.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/src/groovy/jobs/table/columns/ConstantValueColumn.groovy
+END
+PrimaryKeyColumn.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/src/groovy/jobs/table/columns/PrimaryKeyColumn.groovy
+END
+CategoricalVariableColumn.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/src/groovy/jobs/table/columns/CategoricalVariableColumn.groovy
+END
+HighDimensionSingleRowResultColumn.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/src/groovy/jobs/table/columns/HighDimensionSingleRowResultColumn.groovy
+END
+CensorColumn.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/src/groovy/jobs/table/columns/CensorColumn.groovy
+END
+HighDimensionMultipleRowsResultColumn.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/src/groovy/jobs/table/columns/HighDimensionMultipleRowsResultColumn.groovy
+END

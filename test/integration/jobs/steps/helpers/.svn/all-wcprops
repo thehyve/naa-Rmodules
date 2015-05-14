@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/test/integration/jobs/steps/helpers
+END
+CensorColumnConfiguratorTests.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/test/integration/jobs/steps/helpers/CensorColumnConfiguratorTests.groovy
+END
+ContextNumericVariableColumnConfiguratorTests.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/test/integration/jobs/steps/helpers/ContextNumericVariableColumnConfiguratorTests.groovy
+END
+OptionalBinningColumnConfiguratorTests.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/test/integration/jobs/steps/helpers/OptionalBinningColumnConfiguratorTests.groovy
+END
+ConfiguratorTestsHelper.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/test/integration/jobs/steps/helpers/ConfiguratorTestsHelper.groovy
+END
+NumericColumnConfiguratorTests.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/test/integration/jobs/steps/helpers/NumericColumnConfiguratorTests.groovy
+END
+ClinicalDataRetrieverTests.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/test/integration/jobs/steps/helpers/ClinicalDataRetrieverTests.groovy
+END
+StubColumn.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/test/integration/jobs/steps/helpers/StubColumn.groovy
+END
+JobsIntegrationTestMixin.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/test/integration/jobs/steps/helpers/JobsIntegrationTestMixin.groovy
+END
+OptionalColumnConfiguratorDecoratorTests.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/test/integration/jobs/steps/helpers/OptionalColumnConfiguratorDecoratorTests.groovy
+END
+BoxPlotVariableColumnConfiguratorTests.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/test/integration/jobs/steps/helpers/BoxPlotVariableColumnConfiguratorTests.groovy
+END

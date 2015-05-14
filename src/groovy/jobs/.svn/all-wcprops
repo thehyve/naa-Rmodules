@@ -1,0 +1,155 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/src/groovy/jobs
+END
+AcghFrequencyPlot.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/src/groovy/jobs/AcghFrequencyPlot.groovy
+END
+AnalysisConstraints.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/src/groovy/jobs/AnalysisConstraints.groovy
+END
+LineGraph.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/src/groovy/jobs/LineGraph.groovy
+END
+SurvivalAnalysis.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/src/groovy/jobs/SurvivalAnalysis.groovy
+END
+TableWithFisher.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/src/groovy/jobs/TableWithFisher.groovy
+END
+RNASeqGroupTest.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/src/groovy/jobs/RNASeqGroupTest.groovy
+END
+UserParameters.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/src/groovy/jobs/UserParameters.groovy
+END
+CategoricalOrBinnedJob.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/src/groovy/jobs/CategoricalOrBinnedJob.groovy
+END
+MarkerSelection.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/src/groovy/jobs/MarkerSelection.groovy
+END
+Waterfall.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/src/groovy/jobs/Waterfall.groovy
+END
+HierarchicalClustering.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/src/groovy/jobs/HierarchicalClustering.groovy
+END
+AcghGroupTest.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/src/groovy/jobs/AcghGroupTest.groovy
+END
+PCA.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/src/groovy/jobs/PCA.groovy
+END
+BoxPlot.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/src/groovy/jobs/BoxPlot.groovy
+END
+Heatmap.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/src/groovy/jobs/Heatmap.groovy
+END
+KMeansClustering.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/src/groovy/jobs/KMeansClustering.groovy
+END
+JobSpringScope.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/src/groovy/jobs/JobSpringScope.groovy
+END
+AnalysisQuartzJobAdapter.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/src/groovy/jobs/AnalysisQuartzJobAdapter.groovy
+END
+HighDimensionalOnlyJob.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/src/groovy/jobs/HighDimensionalOnlyJob.groovy
+END
+LogisticRegression.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/src/groovy/jobs/LogisticRegression.groovy
+END
+AbstractAnalysisJob.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/src/groovy/jobs/AbstractAnalysisJob.groovy
+END
+ScatterPlot.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/src/groovy/jobs/ScatterPlot.groovy
+END
+AcghAnalysisJob.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/src/groovy/jobs/AcghAnalysisJob.groovy
+END
+CorrelationAnalysis.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/src/groovy/jobs/CorrelationAnalysis.groovy
+END
+AcghSurvivalAnalysis.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/src/groovy/jobs/AcghSurvivalAnalysis.groovy
+END

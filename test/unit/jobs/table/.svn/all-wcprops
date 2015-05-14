@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/test/unit/jobs/table
+END
+ConceptTimeValuesTableTest.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/test/unit/jobs/table/ConceptTimeValuesTableTest.groovy
+END
+TableTests.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/test/unit/jobs/table/TableTests.groovy
+END
+MockTabularResultHelper.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/test/unit/jobs/table/MockTabularResultHelper.groovy
+END

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/web-app/Rscripts/IC50
+END
+BuildIC50Data.R
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/web-app/Rscripts/IC50/BuildIC50Data.R
+END
+IC50Loader.R
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/web-app/Rscripts/IC50/IC50Loader.R
+END

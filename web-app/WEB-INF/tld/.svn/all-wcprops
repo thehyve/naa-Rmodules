@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/web-app/WEB-INF/tld
+END
+c.tld
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/web-app/WEB-INF/tld/c.tld
+END
+grails.tld
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/web-app/WEB-INF/tld/grails.tld
+END
+fmt.tld
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/web-app/WEB-INF/tld/fmt.tld
+END
+spring.tld
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/web-app/WEB-INF/tld/spring.tld
+END

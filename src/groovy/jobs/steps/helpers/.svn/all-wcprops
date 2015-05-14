@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/src/groovy/jobs/steps/helpers
+END
+SimpleAddColumnConfigurator.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/src/groovy/jobs/steps/helpers/SimpleAddColumnConfigurator.groovy
+END
+ClinicalDataRetriever.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/src/groovy/jobs/steps/helpers/ClinicalDataRetriever.groovy
+END
+NumericColumnConfigurator.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/src/groovy/jobs/steps/helpers/NumericColumnConfigurator.groovy
+END
+CensorColumnConfigurator.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/src/groovy/jobs/steps/helpers/CensorColumnConfigurator.groovy
+END
+GroupNamesHolder.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/src/groovy/jobs/steps/helpers/GroupNamesHolder.groovy
+END
+BoxPlotVariableColumnConfigurator.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/src/groovy/jobs/steps/helpers/BoxPlotVariableColumnConfigurator.groovy
+END
+ResultInstanceIdsHolder.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/src/groovy/jobs/steps/helpers/ResultInstanceIdsHolder.groovy
+END
+OptionalColumnConfiguratorDecorator.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/src/groovy/jobs/steps/helpers/OptionalColumnConfiguratorDecorator.groovy
+END
+HighDimensionColumnConfigurator.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/src/groovy/jobs/steps/helpers/HighDimensionColumnConfigurator.groovy
+END
+MultiNumericClinicalVariableColumnConfigurator.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/src/groovy/jobs/steps/helpers/MultiNumericClinicalVariableColumnConfigurator.groovy
+END
+CategoricalColumnConfigurator.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/src/groovy/jobs/steps/helpers/CategoricalColumnConfigurator.groovy
+END
+ColumnConfigurator.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/src/groovy/jobs/steps/helpers/ColumnConfigurator.groovy
+END
+BinningColumnConfigurator.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/src/groovy/jobs/steps/helpers/BinningColumnConfigurator.groovy
+END
+OptionalBinningColumnConfigurator.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/src/groovy/jobs/steps/helpers/OptionalBinningColumnConfigurator.groovy
+END
+ContextNumericVariableColumnConfigurator.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/src/groovy/jobs/steps/helpers/ContextNumericVariableColumnConfigurator.groovy
+END
+WaterfallColumnConfigurator.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/src/groovy/jobs/steps/helpers/WaterfallColumnConfigurator.groovy
+END

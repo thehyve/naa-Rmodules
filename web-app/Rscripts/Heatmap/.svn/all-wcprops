@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/web-app/Rscripts/Heatmap
+END
+HClusteredHeatmapLoader.R
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/web-app/Rscripts/Heatmap/HClusteredHeatmapLoader.R
+END
+HeatmapLoader.R
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/web-app/Rscripts/Heatmap/HeatmapLoader.R
+END
+BuildHeatmapData.R
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/web-app/Rscripts/Heatmap/BuildHeatmapData.R
+END
+KMeansHeatmap.R
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/web-app/Rscripts/Heatmap/KMeansHeatmap.R
+END

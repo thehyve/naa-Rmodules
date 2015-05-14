@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/web-app/js/plugin
+END
+IC50.js
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/web-app/js/plugin/IC50.js
+END
+GroupTestaCGH.js
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/web-app/js/plugin/GroupTestaCGH.js
+END
+MarkerSelection.js
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/web-app/js/plugin/MarkerSelection.js
+END
+Waterfall.js
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/web-app/js/plugin/Waterfall.js
+END
+PCA.js
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/web-app/js/plugin/PCA.js
+END
+BoxPlot.js
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/web-app/js/plugin/BoxPlot.js
+END
+Heatmap.js
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/web-app/js/plugin/Heatmap.js
+END
+GroupTestRNASeq.js
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/web-app/js/plugin/GroupTestRNASeq.js
+END
+HClust.js
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/web-app/js/plugin/HClust.js
+END
+KClust.js
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/web-app/js/plugin/KClust.js
+END
+LogisticRegression.js
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/web-app/js/plugin/LogisticRegression.js
+END
+ScatterPlot.js
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/web-app/js/plugin/ScatterPlot.js
+END
+CorrelationAnalysis.js
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/web-app/js/plugin/CorrelationAnalysis.js
+END
+ForestPlot.js
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/web-app/js/plugin/ForestPlot.js
+END
+FrequencyPlot.js
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/web-app/js/plugin/FrequencyPlot.js
+END
+aCGHSurvivalAnalysis.js
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/web-app/js/plugin/aCGHSurvivalAnalysis.js
+END
+LineGraph.js
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/web-app/js/plugin/LineGraph.js
+END
+SurvivalAnalysis.js
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/web-app/js/plugin/SurvivalAnalysis.js
+END
+TableWithFisher.js
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/web-app/js/plugin/TableWithFisher.js
+END

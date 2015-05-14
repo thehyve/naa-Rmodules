@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/scripts
+END
+_Install.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/scripts/_Install.groovy
+END
+_Events.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/scripts/_Events.groovy
+END
+_Uninstall.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/scripts/_Uninstall.groovy
+END
+_Upgrade.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/scripts/_Upgrade.groovy
+END

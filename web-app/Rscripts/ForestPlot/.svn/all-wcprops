@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/web-app/Rscripts/ForestPlot
+END
+makeForestPlotForRCTs.R
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/web-app/Rscripts/ForestPlot/makeForestPlotForRCTs.R
+END
+ForestPlotLoader.R
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/web-app/Rscripts/ForestPlot/ForestPlotLoader.R
+END
+forest-plot.R
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/web-app/Rscripts/ForestPlot/forest-plot.R
+END
+BuildForestPlotData.R
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/web-app/Rscripts/ForestPlot/BuildForestPlotData.R
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/web-app/Rscripts/RNASeq
+END
+RNASeqGroupTestJobMapTemplate.txt
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/web-app/Rscripts/RNASeq/RNASeqGroupTestJobMapTemplate.txt
+END
+RNASeq-edgeR-DEanalysis.R
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/web-app/Rscripts/RNASeq/RNASeq-edgeR-DEanalysis.R
+END
+RNASeq-Build-DEanalysisData.R
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/web-app/Rscripts/RNASeq/RNASeq-Build-DEanalysisData.R
+END

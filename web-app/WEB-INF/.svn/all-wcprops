@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/web-app/WEB-INF
+END
+applicationContext.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/web-app/WEB-INF/applicationContext.xml
+END
+sitemesh.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/web-app/WEB-INF/sitemesh.xml
+END

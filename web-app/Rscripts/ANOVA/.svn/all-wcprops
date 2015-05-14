@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/web-app/Rscripts/ANOVA
+END
+BoxPlotLoader.R
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/web-app/Rscripts/ANOVA/BoxPlotLoader.R
+END
+BuildANOVAData.R
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/web-app/Rscripts/ANOVA/BuildANOVAData.R
+END

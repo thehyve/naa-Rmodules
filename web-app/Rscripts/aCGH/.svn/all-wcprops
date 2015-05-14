@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/web-app/Rscripts/aCGH
+END
+aCGHBuildFrequencyPlotData.R
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/web-app/Rscripts/aCGH/aCGHBuildFrequencyPlotData.R
+END
+acgh-frequency-plot.R
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/web-app/Rscripts/aCGH/acgh-frequency-plot.R
+END
+aCGHBuildGroupTestData.R
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/web-app/Rscripts/aCGH/aCGHBuildGroupTestData.R
+END
+acgh-plot-survival.R
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/web-app/Rscripts/aCGH/acgh-plot-survival.R
+END
+aCGHBuildSurvivalData.R
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/web-app/Rscripts/aCGH/aCGHBuildSurvivalData.R
+END
+acgh-survival-test.R
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/web-app/Rscripts/aCGH/acgh-survival-test.R
+END
+acgh-group-test.R
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/web-app/Rscripts/aCGH/acgh-group-test.R
+END

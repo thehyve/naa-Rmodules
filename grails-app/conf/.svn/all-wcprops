@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/grails-app/conf
+END
+DataSource.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/grails-app/conf/DataSource.groovy
+END
+UrlMappings.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/grails-app/conf/UrlMappings.groovy
+END
+Config.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/grails-app/conf/Config.groovy
+END
+ExportedUrlMappings.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/grails-app/conf/ExportedUrlMappings.groovy
+END
+BuildConfig.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/grails-app/conf/BuildConfig.groovy
+END
+RmodulesResources.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/repos/pfizer_2_0/!svn/ver/50/Rmodules/grails-app/conf/RmodulesResources.groovy
+END
