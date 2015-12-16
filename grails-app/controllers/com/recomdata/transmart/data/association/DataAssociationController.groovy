@@ -1,7 +1,7 @@
 package com.recomdata.transmart.data.association
 
-import org.json.JSONArray
-import org.json.JSONObject
+import org.codehaus.groovy.grails.web.json.JSONArray
+import org.codehaus.groovy.grails.web.json.JSONObject
 
 class DataAssociationController {
     
@@ -44,10 +44,10 @@ class DataAssociationController {
 
         JSONObject result = new JSONObject()
         JSONArray rows = new JSONArray()
-                
+
         // for all js files
         for (file in scripts) {
-            def m = [:]
+            def m = new JSONObject()
             m["path"] = file.toString()
             m["type"] = "script"
             rows.put(m);
@@ -55,7 +55,7 @@ class DataAssociationController {
 
         // for all css files
         for (file in styles) {
-            def n = [:]
+            def n = new JSONObject()
             n["path"] = file.toString()
             n["type"] = "css"
             rows.put(n);
